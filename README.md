@@ -2,7 +2,7 @@
 
 _This project contains simple implementation for routing system._
 
-[vid](https://github.com/XenoPOMP/swiftui-router-example/blob/main/Docs/Preview.mov)
+https://github.com/user-attachments/assets/a255b766-46f4-4063-b84d-5a4b777e5dc8
 
 ## 👨‍💻 Implementation
 
