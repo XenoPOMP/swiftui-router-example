@@ -2,6 +2,8 @@
 
 _This project contains simple implementation for routing system._
 
+[vid](https://github.com/XenoPOMP/swiftui-router-example/blob/main/Docs/Preview.mov)
+
 ## 👨‍💻 Implementation
 
 - 🫸  [Router class](https://github.com/XenoPOMP/swiftui-router-example/blob/main/Milestone%20Grid/Routing/Router.swift) - handles path environment
