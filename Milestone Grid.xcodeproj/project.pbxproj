@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		338178652DE1C651001A4847 /* XenopompEssentials in Frameworks */ = {isa = PBXBuildFile; productRef = 338178642DE1C651001A4847 /* XenopompEssentials */; };
+		33ACD1F12DE262A500A980A8 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 33ACD1F02DE262A500A980A8 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3381784D2DE1C44F001A4847 /* Milestone Grid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Milestone Grid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33ACD1F02DE262A500A980A8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -37,6 +39,7 @@
 		338178442DE1C44F001A4847 = {
 			isa = PBXGroup;
 			children = (
+				33ACD1F02DE262A500A980A8 /* .gitignore */,
 				3381784F2DE1C44F001A4847 /* Milestone Grid */,
 				3381784E2DE1C44F001A4847 /* Products */,
 			);
@@ -118,6 +121,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33ACD1F12DE262A500A980A8 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
