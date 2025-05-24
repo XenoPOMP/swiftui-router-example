@@ -1,0 +1,15 @@
+{
+  "originHash" : "279cd288a2031b6742b473df124cf64f21d78d154cc2a5ce3d2518f03dfc8e05",
+  "pins" : [
+    {
+      "identity" : "xenopompessentials",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/XenoPOMP/XenopompEssentials.git",
+      "state" : {
+        "revision" : "bd58e3e1018c9a1fbc9c8c227583eb33e040823c",
+        "version" : "0.0.8"
+      }
+    }
+  ],
+  "version" : 3
+}
