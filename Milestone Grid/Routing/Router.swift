@@ -9,6 +9,7 @@ import Foundation
 import SwiftUI
 import Observation
 
+/// Global class for handling routing
 @Observable
 class Router {
     var path = NavigationPath()
@@ -18,6 +19,7 @@ class Router {
         path.append(appendingPath)
     }
     
+    /// Navigates one route back
     func goBack() {
         path.removeLast(1)
     }

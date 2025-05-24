@@ -11,6 +11,7 @@ import SwiftUI
 struct RouterViewModifier: ViewModifier {
     @State private var router = Router()
     
+    /// This method contains all routes
     private func routeView(for route: Route) -> some View {
         Group {
             switch route {
@@ -32,6 +33,7 @@ struct RouterViewModifier: ViewModifier {
 }
 
 extension View {
+    /// Wraps view with Router
     func withRouter() -> some View {
         modifier(RouterViewModifier())
     }
