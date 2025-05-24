@@ -10,12 +10,16 @@
 		338178652DE1C651001A4847 /* XenopompEssentials in Frameworks */ = {isa = PBXBuildFile; productRef = 338178642DE1C651001A4847 /* XenopompEssentials */; };
 		33ACD1F12DE262A500A980A8 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 33ACD1F02DE262A500A980A8 /* .gitignore */; };
 		33ACD1F32DE263B400A980A8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 33ACD1F22DE263B400A980A8 /* README.md */; };
+		33ACD1F62DE26C1A00A980A8 /* Preview.mov in Resources */ = {isa = PBXBuildFile; fileRef = 33ACD1F52DE26C1A00A980A8 /* Preview.mov */; };
+		33ACD1F82DE26C6500A980A8 /* .gitattributes in Resources */ = {isa = PBXBuildFile; fileRef = 33ACD1F72DE26C6500A980A8 /* .gitattributes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3381784D2DE1C44F001A4847 /* Milestone Grid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Milestone Grid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33ACD1F02DE262A500A980A8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		33ACD1F22DE263B400A980A8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		33ACD1F52DE26C1A00A980A8 /* Preview.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Preview.mov; sourceTree = "<group>"; };
+		33ACD1F72DE26C6500A980A8 /* .gitattributes */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -41,6 +45,8 @@
 		338178442DE1C44F001A4847 = {
 			isa = PBXGroup;
 			children = (
+				33ACD1F72DE26C6500A980A8 /* .gitattributes */,
+				33ACD1F42DE26C0D00A980A8 /* Docs */,
 				33ACD1F22DE263B400A980A8 /* README.md */,
 				33ACD1F02DE262A500A980A8 /* .gitignore */,
 				3381784F2DE1C44F001A4847 /* Milestone Grid */,
@@ -54,6 +60,14 @@
 				3381784D2DE1C44F001A4847 /* Milestone Grid.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		33ACD1F42DE26C0D00A980A8 /* Docs */ = {
+			isa = PBXGroup;
+			children = (
+				33ACD1F52DE26C1A00A980A8 /* Preview.mov */,
+			);
+			path = Docs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +138,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33ACD1F82DE26C6500A980A8 /* .gitattributes in Resources */,
 				33ACD1F12DE262A500A980A8 /* .gitignore in Resources */,
 				33ACD1F32DE263B400A980A8 /* README.md in Resources */,
+				33ACD1F62DE26C1A00A980A8 /* Preview.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
