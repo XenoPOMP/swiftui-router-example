@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/XenoPOMP/XenopompEssentials.git",
       "state" : {
-        "revision" : "bd58e3e1018c9a1fbc9c8c227583eb33e040823c",
-        "version" : "0.0.8"
+        "revision" : "69fc3e1cfcac734a2629dee9d2c9a57e5a7d5ea8",
+        "version" : "0.0.11"
       }
     }
   ],

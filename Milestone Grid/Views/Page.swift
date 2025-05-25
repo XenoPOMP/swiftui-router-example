@@ -15,14 +15,11 @@ struct Page<Content: View>: View {
     
     var body: some View {
         ScrollView {
-            HStack {
-                Group {
-                    content
-                }
-                Spacer()
+            Group {
+                content
             }
+            .shrink(at: .width, align: .topLeading)
             .padding()
-            .shrink(at: .width)
         }
         .navigationTitle(title)
         .navigationBarTitleDisplayMode(titleDisplayMode)
