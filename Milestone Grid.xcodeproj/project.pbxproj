@@ -26,11 +26,6 @@
 			path = "Milestone Grid";
 			sourceTree = "<group>";
 		};
-		338A88532DE37BFB007F6058 /* SwiftGen */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftGen;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +43,6 @@
 		338178442DE1C44F001A4847 = {
 			isa = PBXGroup;
 			children = (
-				338A88532DE37BFB007F6058 /* SwiftGen */,
 				33ACD1F72DE26C6500A980A8 /* .gitattributes */,
 				33ACD1F22DE263B400A980A8 /* README.md */,
 				33ACD1F02DE262A500A980A8 /* .gitignore */,
@@ -82,7 +76,6 @@
 			);
 			fileSystemSynchronizedGroups = (
 				3381784F2DE1C44F001A4847 /* Milestone Grid */,
-				338A88532DE37BFB007F6058 /* SwiftGen */,
 			);
 			name = "Milestone Grid";
 			packageProductDependencies = (
