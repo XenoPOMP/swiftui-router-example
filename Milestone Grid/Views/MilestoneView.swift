@@ -54,31 +54,29 @@ struct MilestoneView: View, MilestoneProperties {
         return nil
     }
     
+    @ViewBuilder
+    private func Guide(hide: Bool) -> some View {
+        Rectangle()
+            .frame(width: 1)
+            .shrink(at: .height)
+            .foregroundStyle(
+                hide
+                    ? Color.transparent
+                    : self.guideColor
+            )
+    }
+    
     var body: some View {
         HStack {
             VStack {
-                Rectangle()
-                    .frame(width: 1)
-                    .shrink(at: .height)
-                    .foregroundStyle(
-                        self.pos == .first
-                            ? Color.init(red: 0, green: 0, blue: 0, opacity: 0)
-                            : self.guideColor
-                    )
+                Guide(hide: self.pos == .first)
                 
                 Circle()
                     .foregroundStyle(self.circleColor)
                     .frame(width: CGFloat(self.bulletSize), height: CGFloat(self.bulletSize))
                     .padding(.vertical, CGFloat(self.bulletGap))
                 
-                Rectangle()
-                    .frame(width: 1)
-                    .shrink(at: .height)
-                    .foregroundStyle(
-                        self.pos == .last
-                            ? Color.init(red: 0, green: 0, blue: 0, opacity: 0)
-                            : self.guideColor
-                    )
+                Guide(hide: self.pos == .last)
             }
             .padding(0)
             .shrink(at: .height)
@@ -133,9 +131,16 @@ struct MilestoneView: View, MilestoneProperties {
                     return .none
                 }
                 
+                var desc: String {
+                    var res = String(repeating: "Hello\n", count: repeats)
+                    var _i = res.popLast()
+                    
+                    return res
+                }
+                
                 MilestoneView(
                     title: "\(displayingIdx) - Item",
-                    desc: String(repeating: "Hello\n", count: repeats),
+                    desc: desc,
                     pos: pos
                 )
             }
