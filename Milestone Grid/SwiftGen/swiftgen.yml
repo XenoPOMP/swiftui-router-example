@@ -2,4 +2,4 @@ colors:
   inputs: colors.json
   outputs:
     templateName: swift5
-    output: Colors.swift
+    output: ../ColorScheme.swift
