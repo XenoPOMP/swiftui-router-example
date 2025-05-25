@@ -29,7 +29,7 @@ struct MilestoneView: View, MilestoneProperties {
     var longDesc: String?
     
     // Colors
-    var circleColor: Color = Color.red
+    var circleColor: Color = ColorName.accent.toColor()
     var guideColor: Color = Color.secondary
     
     // Bullet params
